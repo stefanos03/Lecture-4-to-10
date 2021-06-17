@@ -16,11 +16,12 @@ public class Lab8 {
     public static void main(String[] args) {
          /*Here we create two new empty ArrayLists for storing 
         the names and contact numbers */ 
-        ArrayList<String> names = new ArrayList();
+        ArrayList names = new ArrayList();
         ArrayList<String> numbers = new ArrayList();
         String response = "";
         int num;
-        
+        double test1;
+        boolean b =false;
         /* A loop allowing user to enter as many names/numbers as required */ 
         while (JOptionPane.showConfirmDialog(null, "Add a contact?") == 0) {
             /* enter name and then add to the names ArrayList */
